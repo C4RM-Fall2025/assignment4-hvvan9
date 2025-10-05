@@ -1,2 +1,2 @@
-def WhoamI():
-    return('hw3110')
+def WhoAmI():
+    return("hw3110")
