@@ -21,11 +21,3 @@ def getBondPrice(y, face, couponRate, m, ppy=1):
 
     return price
 
-y = 0.03
-face = 2000000
-couponRate = 0.04
-m = 10
-
-print("Annual payments (ppy=1):", f"${getBondPrice(y, face, couponRate, m, ppy=1):,.2f}")
-print("Semi-annual payments (ppy=2):", f"${getBondPrice(y, face, couponRate, m, ppy=2):,.2f}")
-print("Default (ppy omitted):", f"${getBondPrice(y, face, couponRate, m):,.2f}")
